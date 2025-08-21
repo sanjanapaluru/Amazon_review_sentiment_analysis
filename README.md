@@ -2,7 +2,7 @@
 
 A comprehensive sentiment analysis system for customer reviews using PyTorch and modern NLP techniques. This project implements multiple neural network architectures for analyzing customer sentiment in product reviews.
 
-## 🚀 Features
+##  Features
 
 - **Multiple Model Architectures**: Neural Bag of Words (NBoW), LSTM, CNN, and Transformer (BERT)
 - **Complete Pipeline**: Data preprocessing, model training, evaluation, and inference
@@ -11,7 +11,7 @@ A comprehensive sentiment analysis system for customer reviews using PyTorch and
 - **Real Dataset**: Amazon product reviews dataset included
 - **Easy-to-use Interface**: Command-line scripts and Python API
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 sentiment-analysis-repo/
@@ -43,7 +43,7 @@ sentiment-analysis-repo/
 └── README.md                  # This file
 ```
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository** (if not already done):
 ```bash
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-## 🎯 Quick Start
+## Quick Start
 
 ### Step 1: Generate Sample Data (Optional)
 ```bash
@@ -96,9 +96,9 @@ The project currently includes the following executable scripts:
 4. **Interactive Exploration**: 
    - `jupyter notebook notebooks/sentiment_analysis_exploration.ipynb` - Interactive data exploration
 
-## 🧠 Model Architectures
+## Model Architectures
 
-### 1. Neural Bag of Words (NBoW) ✅
+### 1. Neural Bag of Words (NBoW) 
 - **Status**: Implemented and ready
 - **Features**: Simple, fast, good baseline
 - **Best for**: Quick prototyping, simple classification
@@ -174,7 +174,7 @@ The notebook includes:
 - Performance comparison
 - Interactive prediction interface
 
-## 🎨 Visualization Features
+##  Visualization Features
 
 The system includes comprehensive visualization tools:
 
@@ -261,7 +261,7 @@ Key dependencies include:
 - `wordcloud>=1.9.0`: Word cloud generation
 - `plotly>=5.15.0`: Interactive visualizations
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with PyTorch and modern NLP libraries
 - Thanks to the open-source community for tools and resources
@@ -276,6 +276,6 @@ Key dependencies include:
 
 ---
 
-**Ready to analyze customer sentiment?** 🚀
+**Ready to analyze customer sentiment?** 
 
 Start with: `python train_nbow.py --save_model` → `python inference.py --model_path trained_models/nbow_model.pth --text "Amazing product!"`
