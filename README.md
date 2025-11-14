@@ -79,7 +79,7 @@ python train_nbow.py --epochs 20 --save_model
 python inference.py --model_path trained_models/nbow_model.pth --text "This product is amazing!"
 ```
 
-## 🏗️ Available Scripts
+##  Available Scripts
 
 The project currently includes the following executable scripts:
 
@@ -104,7 +104,7 @@ The project currently includes the following executable scripts:
 - **Best for**: Quick prototyping, simple classification
 - **Performance**: 85-90% accuracy, very fast training
 
-## 📊 Data Format
+##  Data Format
 
 The system works with CSV files containing customer reviews and sentiment labels:
 - `Review`: The customer review text
@@ -122,7 +122,7 @@ Review,Sentiment
 "Disappointed with the purchase.",0
 ```
 
-## 🔧 Training Models
+##  Training Models
 
 ### Neural Bag of Words (Currently Available)
 ```bash
@@ -138,7 +138,7 @@ python train_nbow.py \
 ### Other Models
 The LSTM, CNN, and Transformer models are implemented in the `models/` directory but training scripts are not yet available. You can use these model implementations through the interactive notebook or by creating custom training scripts.
 
-## 🔍 Inference Options
+##  Inference Options
 
 ### Single Text Prediction
 ```bash
@@ -161,7 +161,7 @@ python inference.py \
 python inference.py --model_path trained_models/nbow_model.pth
 ```
 
-## 📓 Jupyter Notebook
+##  Jupyter Notebook
 
 Launch the interactive exploration notebook:
 ```bash
@@ -185,7 +185,7 @@ The system includes comprehensive visualization tools:
 - **Word Clouds**: Visual representation of frequent words
 - **Model Comparison**: Side-by-side performance charts
 
-## 🔧 Advanced Usage
+##  Advanced Usage
 
 ### Custom Data Loading
 ```python
@@ -216,7 +216,7 @@ trainer = Trainer(model)
 history = trainer.fit(train_loader, val_loader, epochs=50)
 ```
 
-## 📈 Performance Comparison
+##  Performance Comparison
 
 | Model       | Accuracy | Precision | Recall | F1-Score | Training Time | Inference Speed |
 |-------------|----------|-----------|--------|----------|---------------|-----------------|
@@ -245,7 +245,7 @@ history = trainer.fit(train_loader, val_loader, epochs=50)
 - `--dropout`: Dropout rate (default: 0.5)
 
 
-## 📚 Dependencies
+##  Dependencies
 
 Key dependencies include:
 - `torch>=2.0.0`: PyTorch deep learning framework
@@ -267,7 +267,7 @@ Key dependencies include:
 - Thanks to the open-source community for tools and resources
 - Special thanks to Hugging Face for transformer models
 
-## 🔗 Related Resources
+##  Related Resources
 
 - [PyTorch Documentation](https://pytorch.org/docs/)
 - [Hugging Face Transformers](https://huggingface.co/transformers/)
